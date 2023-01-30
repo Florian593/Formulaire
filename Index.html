@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Index.css">
+</head>
+
+<body>
+    <h1>Le Formulaire</h1>
+    <form action="">
+        <fieldset>
+            <legend>Les champs avec <span>*</span> sont obligatoires</legend>
+
+            <label for="Nom">Nom : <span>*</span></label>
+            <input type="text" name="nom" id="nom" required>
+
+            <label for="prenom">Votre prénom  <span>*</span></label>
+            <input type="text" name="prénom" id="prénom" required>
+
+            <label for="email">Votre e-mail  <span>*</span></label>
+            <input type="email" name="email" id="email" required>
+
+            <label for="date">Votre date de naissance <span>*</span></label>
+            <input type="date" name="date" id="date" required> <br>
+
+            <label for="password">Votre mot de passe  <span>*</span></label>
+            <input type="password" name="password" id="mdp" required>
+
+            <label for="password">Confirmer mot de passe<span>*</span></label>
+            <input type="password" name="password" id="mdp" required>
+
+            <label for="CGU">Accepter les CGU</label>
+            <input type="checkbox" required>
+
+            <input type="submit" id="submit">
+        </fieldset>
+    </form>
+
+    <script src="Index.js"></script>
+</body>
+
+</html>

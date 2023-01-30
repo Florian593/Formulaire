@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+
+h1{
+    text-align: center;
+    font-size: 40px;
+}
+
+form{
+    text-align: center;
+}
+
+fieldset{
+    display: inline;
+    width: 200px;
+    margin-top: 3%;
+}
+
+#submit{
+    margin-top:10px;
+}
+
+span{
+    color: red;
+}
+
+input{
+    margin-bottom: 10px;
+}
+
+#date{
+    width: 165px;
+    text-align: center;
+}
+
