@@ -11,36 +11,41 @@
 
 <body>
     <h1>Le Formulaire</h1>
-    <form action="">
+    <form action="" id="myform">
         <fieldset>
             <legend>Les champs avec <span>*</span> sont obligatoires</legend>
 
-            <label for="Nom">Nom : <span>*</span></label>
-            <input type="text" name="nom" id="nom" required>
+            <label for="Nom">Nom : <span>*</span></label> <br>
+            <span id="errorNom"></span>
+            <input type="text" name="nom" id="nom"> <br>
+            
 
-            <label for="prenom">Votre prénom  <span>*</span></label>
-            <input type="text" name="prénom" id="prénom" required><br>
+            <label for="prenom">Votre prénom  <span>*</span></label> <br>
+            <span id="errorPrenom"></span>
+            <input type="text" name="prénom" id="prenom">
 
             <label for="email">Votre e-mail  <span>*</span></label>
-            <input type="email" name="email" id="email" required>
+            <input type="email" name="email" id="email">
 
             <label for="date">Votre date de naissance <span>*</span></label>
-            <input type="date" name="date" id="date" required> <br>
+            <input type="date" name="date" id="date"> <br>
 
-            <label for="password">Votre mot de passe  <span>*</span></label>
-            <input type="password" name="password" id="mdp" required>
+            <label for="password">Votre mot de passe  <span>*</span></label><br>
+            <span id="errorMdp"></span> 
+            <input type="password" name="password" id="mdp">
 
-            <label for="password">Confirmer mot de passe<span>*</span></label>
-            <input type="password" name="password" id="mdp" required>
+            <label for="password">Confirmer mot de passe<span>*</span></label> <br>
+            <span id="errorMdp2"></span>
+            <input type="password" name="password" id="mdp2">
 
             <label for="CGU">Accepter les CGU</label>
-            <input type="checkbox" required>
+            <input type="checkbox">
 
             <input type="submit" id="submit">
         </fieldset>
     </form>
 
-    <script src="Index.js"></script>
+    <script src="index.js"></script>
 </body>
 
 </html>
